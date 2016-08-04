@@ -10,9 +10,9 @@
 		EED649831D467F8A005FFF98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EED649821D467F8A005FFF98 /* main.m */; };
 		EED649861D467F8A005FFF98 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EED649851D467F8A005FFF98 /* AppDelegate.m */; };
 		EED649891D467F8B005FFF98 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EED649881D467F8B005FFF98 /* ViewController.m */; };
-		EED6498C1D467F8B005FFF98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EED6498A1D467F8B005FFF98 /* Main.storyboard */; };
 		EED6498E1D467F8B005FFF98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EED6498D1D467F8B005FFF98 /* Assets.xcassets */; };
 		EED649911D467F8B005FFF98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EED6498F1D467F8B005FFF98 /* LaunchScreen.storyboard */; };
+		EED649991D468153005FFF98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EED649981D468153005FFF98 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +22,10 @@
 		EED649851D467F8A005FFF98 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EED649871D467F8A005FFF98 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		EED649881D467F8B005FFF98 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		EED6498B1D467F8B005FFF98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EED6498D1D467F8B005FFF98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EED649901D467F8B005FFF98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EED649921D467F8B005FFF98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EED649981D468153005FFF98 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 				EED649851D467F8A005FFF98 /* AppDelegate.m */,
 				EED649871D467F8A005FFF98 /* ViewController.h */,
 				EED649881D467F8B005FFF98 /* ViewController.m */,
-				EED6498A1D467F8B005FFF98 /* Main.storyboard */,
+				EED649981D468153005FFF98 /* Main.storyboard */,
 				EED6498D1D467F8B005FFF98 /* Assets.xcassets */,
 				EED6498F1D467F8B005FFF98 /* LaunchScreen.storyboard */,
 				EED649921D467F8B005FFF98 /* Info.plist */,
@@ -138,7 +138,7 @@
 			files = (
 				EED649911D467F8B005FFF98 /* LaunchScreen.storyboard in Resources */,
 				EED6498E1D467F8B005FFF98 /* Assets.xcassets in Resources */,
-				EED6498C1D467F8B005FFF98 /* Main.storyboard in Resources */,
+				EED649991D468153005FFF98 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,14 +158,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EED6498A1D467F8B005FFF98 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EED6498B1D467F8B005FFF98 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EED6498F1D467F8B005FFF98 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
